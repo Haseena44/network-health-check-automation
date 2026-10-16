@@ -1,0 +1,17 @@
+# Network Health Check Automation
+
+Automated tool that checks DNS resolution, HTTP status and TLS certificate expiry for multiple endpoints.
+
+## Features
+- DNS check using socket
+- HTTP status check (200 OK)
+- TLS expiry check (warns if <30 days)
+- Logs results to console/file
+
+## Tech Stack
+Python, Shell, Linux, TCP/IP, HTTP, DNS, TLS/SSL, Git
+
+## How to Run
+```bash
+pip install -r requirements.txt
+python health_check.py
